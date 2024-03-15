@@ -1,36 +1,7 @@
 import tkinter as tk
 from tkinter import filedialog
 from tkinter import messagebox
-
-# Classes No e Pilha fornecidas
-class No:
-    def __init__(self, valor):
-        self.valor = valor
-        self.proximo = None
-
-class Pilha:
-    def __init__(self):
-        self.topo = None
-
-    def push(self, valor):
-        novo_no = No(valor)
-        novo_no.proximo = self.topo
-        self.topo = novo_no
-
-    def pop(self):
-        if self.topo is not None:
-            removido = self.topo
-            self.topo = self.topo.proximo
-            return removido.valor
-        raise Exception("Pilha vazia")
-
-    def peek(self):
-        if self.topo is not None:
-            return self.topo.valor
-        raise Exception("Pilha vazia")
-
-    def is_empty(self):
-        return self.topo is None
+from pilha import Pilha
 
 class SimpleNotepad:
     def __init__(self, root):
