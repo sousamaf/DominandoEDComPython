@@ -12,7 +12,6 @@ Listas lineares encadeadas são estruturas de dados fundamentais na computação
 Este diretório contém os seguintes arquivos Jupyter Notebook:
 
 - `Introducao_Listas_Encadeadas.ipynb` - Uma introdução às listas lineares encadeadas, incluindo conceitos básicos e operações fundamentais como inserção, remoção e percurso da lista.
-- `lista_ordenada_encadeada.ipynb` - Contém a implementação da Lista Ordenada Encadeada construída em aula.
 
 ## Como Usar
 
